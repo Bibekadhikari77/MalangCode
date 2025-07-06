@@ -25,7 +25,7 @@ export default function Footer() {
           <span className="text-2xl font-bold text-[var(--primary-color)]">Malang Coders</span>
         </div>
         {/* Navigation */}
-        <nav className="flex flex-wrap gap-6 text-[var(--text-muted)] text-sm">
+        <nav className="flex flex-wrap gap-6 text-sm"style={{ color: "var(--text-color)" }}>
           {navLinks.map((link) => (
             <Link key={link.name} href={link.href} className="hover:text-[var(--primary-color)] transition-colors duration-200">
               {link.name}
@@ -48,7 +48,7 @@ export default function Footer() {
           ))}
         </div>
       </div>
-      <div className="text-center text-xs text-[var(--text-muted)] mt-8">
+      <div className="text-center text-xs mt-8"style={{ color: "var(--text-color)" }}>
         &copy; {new Date().getFullYear()} Malang Coders. All rights reserved.
       </div>
     </footer>

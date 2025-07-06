@@ -20,9 +20,9 @@ import { FaDiagramProject } from "react-icons/fa6";
 const navLinks = [
   { name: "Home", href: "/", icon: HiHome },
   { name: "About", href: "#about", icon: HiQuestionMarkCircle },
-  { name: "Service", href: "/service", icon: GrServices },
-  { name: "Contact", href: "/contact", icon: IoMdContact },
-  { name: "Project", href: "/project", icon: FaDiagramProject },
+  { name: "Service", href: "#service", icon: GrServices },
+  { name: "Contact", href: "#contact", icon: IoMdContact },
+  { name: "Project", href: "#project", icon: FaDiagramProject },
 ];
 
 export default function Navbar() {
