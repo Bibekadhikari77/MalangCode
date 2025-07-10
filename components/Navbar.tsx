@@ -20,10 +20,17 @@ import { FaDiagramProject } from "react-icons/fa6";
 import Image from "next/image";
 const navLinks = [
   { name: "Home", href: "/", icon: HiHome },
+<<<<<<< HEAD
   { name: "About", href: "/about", icon: HiQuestionMarkCircle },
   { name: "Service", href: "/service", icon: GrServices },
   { name: "Contact", href: "/contact", icon: IoMdContact },
   { name: "Project", href: "/project", icon: FaDiagramProject },
+=======
+  { name: "About", href: "#about", icon: HiQuestionMarkCircle },
+  { name: "Service", href: "#service", icon: GrServices },
+  { name: "Contact", href: "#contact", icon: IoMdContact },
+  { name: "Project", href: "#project", icon: FaDiagramProject },
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
 ];
 
 export default function Navbar() {

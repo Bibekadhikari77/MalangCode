@@ -188,6 +188,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800">
@@ -237,6 +238,35 @@ const Footer = () => {
           </div>
         </div>
       </div>
+=======
+        {/* Navigation */}
+        <nav className="flex flex-wrap gap-6 text-sm"style={{ color: "var(--text-color)" }}>
+          {navLinks.map((link) => (
+            <Link key={link.name} href={link.href} className="hover:text-[var(--primary-color)] transition-colors duration-200">
+              {link.name}
+            </Link>
+          ))}
+        </nav>
+        {/* Social Icons */}
+        <div className="flex space-x-4">
+          {socialLinks.map(({ icon: Icon, href }, i) => (
+            <a
+              key={i}
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full hover:bg-[var(--primary-color)]/10 transition-colors duration-200"
+              aria-label="Social link"
+            >
+              <Icon className="w-5 h-5" />
+            </a>
+          ))}
+        </div>
+      </div>
+      <div className="text-center text-xs mt-8"style={{ color: "var(--text-color)" }}>
+        &copy; {new Date().getFullYear()} Malang Coders. All rights reserved.
+      </div>
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
     </footer>
   )
 }

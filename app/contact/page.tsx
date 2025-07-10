@@ -83,6 +83,7 @@ const Contact = () => {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
+<<<<<<< HEAD
           <div
             className={`inline-flex items-center space-x-2 bg-white/10 dark:bg-gray-800/20 backdrop-blur-sm border border-gray-200/20 dark:border-gray-700/20 rounded-full px-4 py-2 text-sm mb-6 transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
@@ -93,13 +94,27 @@ const Contact = () => {
             className={`text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
             style={{ color: "var(--text-color)" }}>
+=======
+          <h2
+            className={`text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 transition-all duration-1000 ${
+              isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          style={{ color: "var(--text-color)" }}>
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
             Get In{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Touch</span>
           </h2>
           <p
+<<<<<<< HEAD
             className={`text-xl max-w-3xl mx-auto leading-relaxed transition-all duration-1000 delay-200 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
               }`}
             style={{ color: "var(--text-color)" }}>
+=======
+            className={`text-xl max-w-3xl mx-auto leading-relaxed transition-all duration-1000 delay-200 ${
+              isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
+            }`}
+          style={{ color: "var(--text-color)" }}>
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
             Ready to start your project? Let's discuss how we can help bring your ideas to life.
           </p>
         </div>
@@ -111,7 +126,11 @@ const Contact = () => {
               }`}
           >
             <div>
+<<<<<<< HEAD
               <h3 className="text-2xl font-bold mb-6" style={{ color: "var(--text-color)" }}>Contact Information</h3>
+=======
+              <h3 className="text-2xl font-bold mb-6"style={{ color: "var(--text-color)" }}>Contact Information</h3>
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
               <div className="space-y-6">
                 {contactInfo.map((info, index) => (
                   <div key={info.title} className="flex items-start space-x-4">
@@ -119,9 +138,15 @@ const Contact = () => {
                       <info.icon className="w-6 h-6 text-white" />
                     </div>
                     <div>
+<<<<<<< HEAD
                       <h4 className="font-semibold" style={{ color: "var(--text-color)" }}>{info.title}</h4>
                       <p className="" style={{ color: "var(--text-color)" }}>{info.details}</p>
                       <p className="text-sm" style={{ color: "var(--text-color)" }}>{info.description}</p>
+=======
+                      <h4 className="font-semibold"style={{ color: "var(--text-color)" }}>{info.title}</h4>
+                      <p className=""style={{ color: "var(--text-color)" }}>{info.details}</p>
+                      <p className="text-sm"style={{ color: "var(--text-color)" }}>{info.description}</p>
+>>>>>>> ae121304255dc7ebbab48219b37d1c50dbcc9d29
                     </div>
                   </div>
                 ))}
